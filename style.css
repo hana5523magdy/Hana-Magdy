@@ -1,0 +1,449 @@
+body{
+
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+
+  
+    }
+    
+    /* !side */
+    .side{
+        background-color: rgb(248, 47, 47);
+        height: 4500px;
+        width: 300px;
+        position: relative;
+        z-index: 2px;
+    }
+
+    .h1{
+        position: absolute;
+        top: 100px;
+        margin-left:  20%;
+        color:white;
+        
+    }
+
+    .side .h1 .a span{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .list{
+        position: absolute;
+        top:250px;
+        margin-left: 10%;
+    }
+
+    .list ul li{
+        list-style: none;
+        color:white;
+        margin-top: 10px;
+        /* padding:20%; */
+        font-weight: bold;
+    }
+    .list ul li:hover{
+        background-color: white;
+        color:black;
+        width:100%;
+        margin: 20%;
+        padding:10%;
+        cursor: pointer;
+    }
+    /* !title */
+
+    .head1{
+        position: absolute;
+        left:23%;
+        top:0px;
+        margin-top: 5%;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    .head2{
+        position: absolute;
+        left:23%;
+        top:80px;
+        margin-top: 5%;
+        font-size: 40px;
+        font-weight: bold;
+        color: rgb(248, 47, 47);
+    }
+    .head hr{
+        position: absolute;
+        bottom:500px;
+        width:80px;
+        left:23%;
+        color: rgb(248, 47, 47);
+        background-color:  rgb(248, 47, 47);
+        height: 10px;
+        outline: none;
+        border: none;
+        border-radius: 100px;
+    }
+
+
+    /* !images */
+    .images {
+        position: absolute;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        top:0;
+        margin-top:18%;
+        margin-left: 22%;
+        gap: 10px;
+        height: 10%;
+    }
+    .images .image{
+        width:48%;
+    }
+    .images .image img{
+        width: 100%;
+    }
+
+    .images .image img:hover{
+        opacity: 80%;
+        cursor: pointer;
+    }
+    /* ! paragraph */
+    .p1{
+        position: absolute;
+        left:22%;
+        top:0px;
+        margin-top: 95%;
+        
+
+    }
+    .p11{
+        position: absolute;
+        left:0%;
+        top:0px;
+        margin-top: 3%;
+        font-weight: bold;
+        font-size: 50px;
+        color: rgb(248, 47, 47);
+
+    }
+
+    .p1 hr{
+        position: absolute;
+        top:105px;
+        width:80px;
+        left:0%;
+        color: rgb(248, 47, 47);
+        background-color:  rgb(248, 47, 47);
+        height: 10px;
+        outline: none;
+        border: none;
+        border-radius: 100px;
+    }
+
+    .p22{
+        position: absolute;
+        left:0%;
+        top:110px;
+        margin-top: 3%;
+        font-weight: bold;
+    }
+    
+    .p33{
+        margin-top: 16%;
+        font-weight: bold;
+    }
+
+    .p2{
+        position: absolute;
+        left:22%;
+        top:0px;
+        margin-top: 118%;
+    }
+    .p44{
+        font-weight: bold;
+        font-size: 50px;
+        color: rgb(248, 47, 47);
+    }
+
+    .p2 hr{
+        position: absolute;
+        top:108px;
+        width:80px;
+        left:0%;
+        width:80px;
+        color: rgb(248, 47, 47);
+        background-color:  rgb(248, 47, 47);
+        height: 10px;
+        outline: none;
+        border: none;
+        border-radius: 100px;
+    }
+
+    /* ! designers */
+    .p3{
+        position:absolute;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px;
+        margin-left: 21%;
+        top:0;
+        margin-top: 140%;
+    }
+    .p77{
+        position: absolute;
+        margin-left: 0.5%;
+        top:0px;
+        margin-top: -20px;
+    }
+
+    .squares {
+    width: 32%;
+    }
+    .squares >*{
+        margin-top: 20px;
+    }
+    .squares h3{
+        font-size: 150%;
+        margin-left: 20px;
+        padding-top:40px;
+    }
+    .squares h4{
+        color:rgb(91, 90, 90);
+        font-weight: bold;
+        margin-left: 20px;
+    }
+    .squares img{
+        width: 100%;
+    }
+    .squares p{
+        line-height: 1.5;
+        margin-left: 20px;
+    }
+    .squares .momo{
+        margin-top: -50px;
+        background-color: rgb(230, 226, 226);
+        height: 250px;
+    }
+
+    /* ! ! paragraph 3  */
+
+    .p4 h1{
+        font-weight: bold;
+        font-size: 50px;
+        color: rgb(248, 47, 47);
+
+    }
+    .p4 hr{
+        position: absolute;
+        top:615px;
+        width:80px;
+        left:0%;
+        color: rgb(248, 47, 47);
+        background-color:  rgb(248, 47, 47);
+        height: 10px;
+        outline: none;
+        border: none;
+        border-radius: 100px;
+    }
+    .p4 h4{
+        position: absolute;
+        left:0%;
+        top:620px;
+        margin-top: 3%;
+        font-weight: bold;
+    }
+    /* ! tables */
+    
+
+    .table1{
+        position: absolute;
+        top:750px;
+        width:80px;
+        left:0%;
+        text-align: center;
+        outline: none;
+        border: none;
+        
+    }
+    .table1  th{
+        background-color: rgb(86, 84, 84);
+        width: 220%;
+        display: block;
+        padding: 50% 160%;
+        outline: none;
+        
+    }
+    .table1  th span{
+        color:white;
+    }
+    .table1  td{
+        background-color: rgb(229, 224, 224);
+        width: 220%;
+        height: 100%;
+        display: block;
+        padding: 20% 160%;
+        border-bottom: solid gray 1px;
+        outline: none;
+    }
+    .table1  td button{
+        background-color: white ;
+        border: none;
+        outline: none;
+        padding: 10% 20%;
+    }
+    .table1  td button span{
+        color: black;
+    }
+    .table1  td button:hover{
+        background-color:  rgb(204, 204, 210);
+        color: white;
+        cursor: pointer;
+    }
+    .table1  td button span :hover{
+        color:white;
+    }
+
+    
+   
+
+
+
+    .table2{
+        position: absolute;
+        top:750px;
+        width:80px;
+        left:50%;
+        text-align: center;
+        outline: none;
+        border: none;
+    }
+    .table2  th{
+        background-color:  rgb(248, 47, 47);
+        width: 220%;
+        display: block;
+        padding: 50% 160%;
+        outline: none;
+        
+    }
+    .table2  th span{
+        color:white;
+        font-weight: 3000px;
+    }
+    .table2  td{
+        background-color: rgb(229, 224, 224);
+        width: 220%;
+        height: 100%;
+        display: block;
+        padding: 20% 160%;
+        border-bottom: solid gray 1px;
+        outline: none;
+    }
+    .table2  td button{
+        background-color:  rgb(248, 47, 47) ;
+        border: none;
+        outline: none;
+        padding: 10% 20%;
+    }
+    .table2  td button span{
+        color: white;
+    }
+    .table2  td button:hover{
+        background-color: black;
+        cursor: pointer;
+    }
+
+    /* ! paragraph 3 */
+    .p5 h1{
+        font-weight: bold;
+        font-size: 50px;
+        color: rgb(248, 47, 47);
+        position: absolute;
+        top:1480px;
+        width:80px;
+        left:0%;
+
+    }
+    .p5 hr{
+        position: absolute;
+        top:1585px;
+        width:80px;
+        left:0%;
+        color: rgb(248, 47, 47);
+        background-color:  rgb(248, 47, 47);
+        height: 10px;
+        outline: none;
+        border: none;
+        border-radius: 100px;
+    }
+    .p5 h4{
+        position: absolute;
+        left:0%;
+        top:1585px;
+        margin-top: 3%;
+        font-weight: bold;
+    }
+
+    /* ! form */
+
+    .form{
+        position: absolute;
+        left:0%;
+        top:1635px;
+    }
+
+.form input{
+    width: 650%;
+    height: 500%;
+    padding: 5% 0%;
+}
+.name{
+    margin-top: 15%;
+}
+.form button{
+    width: 650%;
+    margin-top: 10%;
+    background-color:  rgb(248, 47, 47) ;
+    outline: none;
+    border: none;
+    padding: 10%;
+}
+.form button span{
+    color: white;
+}
+.form button:hover{
+    background-color: rgb(204, 204, 210);
+    cursor: pointer;
+}
+.form button span:hover{
+    color: black;
+    cursor: pointer;
+}
+
+/* ! botom */
+.bottom{
+    position: absolute;
+    left: -5;
+    top:300%;
+    margin-top: 17%;
+    margin-left: -1%;
+    width: 100%;
+    height:30%;
+    background-color: rgb(229, 224, 224);
+    text-align: center;
+    
+}
+.borrom h3{
+    position: absolute;
+    padding-right: 3%;
+}
+
+
+
+
+
+
+    
